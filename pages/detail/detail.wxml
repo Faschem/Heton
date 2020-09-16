@@ -1,0 +1,44 @@
+<view class="item-header">
+  <view class="item-title">{{item.title}}{{item.original_title}}({{item.year}})</view>
+  <view class="item-detail">
+    <view class="left-detail">
+      <view class="item-rate">
+        <stars rate='7' starsize="30"  fontsize="30" fontcolor="#595959"></stars>
+        <text class="comment-persons">{{item.rating.count}}评论</text>
+
+      </view>
+      <view class="item-sub-detail">
+        <view class="item-type">{{item.genres}}</view>
+        <view class="item-show">{{item.pubdate[0]}}上映 {{item.countries[0]}}</view>
+        <view class="item-actors">{{item.directors[0].name}}(导演)/{{item.actors[0].name}}/{{item.actors[1].name}}/{{item.actors[2].name}}</view>
+      </view>
+    </view>
+
+    <view class="right-detail">
+      <image src="{{item.cover.image.large.url}}"></image>
+    </view>
+  </view>
+
+</view>
+
+<view class="item-tags">
+  <view class="item-tags-title"> 标签</view>
+  <view class="item-tags-list">
+    <text wx:for="{{tags}}" wx:key="id">{{item}}</text> 
+  </view>
+</view>
+
+
+<view class="comment-list-group">
+  <view class="comment-title">短评({{totalComment}})</view>
+
+
+  <onecomment  wx:for="{{comment}}" item="{{item}}" wx:key="id"></onecomment>
+
+ 
+
+
+</view>
+
+
+<navigator class="more-comment" url="/pages/comment/comment?id={{id}}&type={{type}}&thumbnail={{item.cover.image.small.url}}&title={{item.title}}&rate={{item.rating.value}}">查看更多评论</navigator>

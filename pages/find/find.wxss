@@ -1,0 +1,91 @@
+/* pages/discovery/discovery.wxss */
+.container{
+  height:8%;
+}
+.search{
+  height:65rpx;
+  width:750rpx;
+  background:#fecc11;
+  padding: 12.5rpx 0 12.5rpx 15rpx;
+  display:flex
+}
+.search-left{
+  background:#fffefa;
+  flex:8;
+}
+.search-left image{
+  width:35rpx;
+  height:35rpx;
+  padding:15rpx 15rpx 15rpx 20rpx;
+  display: inline-block;
+}
+.search-left input{
+  height:65rpx;
+  display:inline-block;
+}
+.search-right{
+  flex:0.35;
+
+}
+.search-right image{
+  width:45rpx;
+  height:45rpx;
+  padding:10rpx;
+  
+}
+.search-placeholder{
+  color: #8ccefd;
+  font-size: 26rpx;
+}
+
+.part{
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  padding: 12rpx 10rpx 12rpx 10rpx;
+  height: 860rpx;
+  flex-wrap: wrap;
+}
+
+.left{
+  margin: 10rpx 0 0rpx 15rpx;
+  font-size: 35rpx;
+}
+
+.right{
+  margin: 10rpx 0 0rpx 15rpx;
+  font-size: 35rpx;
+  color: #1e9eb3;
+  margin-left: 550rpx;
+  text-align: right;
+}
+
+.br{
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 10rpx;
+}
+
+.image{
+  display: block;
+  width:220rpx;
+  height:360rpx;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  align: center;
+}
+
+.br2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15rpx;
+}

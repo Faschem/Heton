@@ -1,0 +1,10 @@
+.conta{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40rpx;
+}
+/* .conta:after {
+    content: "";
+    width: 220rpx;
+} */

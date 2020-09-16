@@ -1,0 +1,31 @@
+/* pages/search/search.wxss */
+.show{
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #ccc;
+}
+.oneshow{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+  
+  
+}
+.show-left{
+  width: 100rpx;
+  height: 100rpx;
+  
+}
+.show-rig{
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.title{
+  font-size: 30rpx;
+  
+}
+.rate{
+  font-size: 24rpx;
+  color: #898989;
+}

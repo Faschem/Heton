@@ -1,0 +1,83 @@
+<!--pages/discovery/discovery.wxml-->
+<searchbar isnavigator="{{true}}"></searchbar>
+<indexmodule title="电影" items="{{movies}}" moreurl="/pages/list/list?type=movies" type="movie"></indexmodule>
+<!--<indexmodule title="电视剧" items="{{tvh}}" moreurl="/pages/list/list?type=tvh" type="tv"></indexmodule>-->
+
+
+
+<!--
+<scroll-view scroll-y="true" class="container">
+  <view class="search">
+    <view class="search-left">
+      <image src="../../images/tabbar/mineSelected.png"></image>
+      <input placeholder="搜索电影/书籍" placeholder-class="search-placeholder"></input>
+    </view>
+    <view class="search-right"></view>
+  </view>
+</scroll-view>
+
+
+<view class='part'>
+  <view class='left'>电影</view>
+  <view class='right'>更多></view>
+  <view class='br'></view>
+  <view class='image'>
+    <image src="../../images/movie/movie1.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text class='text1'>流浪地球</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/movie/movie2.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>小时代1</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/movie/movie3.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>小时代3</text>
+  </view>
+  <view class='br'></view>
+  <view class='image'>
+    <image src="../../images/movie/movie4.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>小时代4</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/movie/movie5.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>小时代2</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/movie/movie6.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>八佰</text>
+  </view>
+</view>
+
+<view class='br2'></view>
+
+<view class='part'>
+  <view class='left'>书籍</view>
+  <view class='right'>更多></view>
+  <view class='br'></view>
+  <view class='image'>
+    <image src="../../images/book/book1.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>红楼梦</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/book/book2.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>百年孤独</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/book/book3.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>骆驼祥子</text>
+  </view>
+  <view class='br'></view>
+  <view class='image'>
+    <image src="../../images/book/book4.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>三国演义</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/book/book5.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>西游记</text>
+  </view>
+  <view class='image'>
+    <image src="../../images/book/book6.jpg" style="width:220rpx;height:320rpx;"></image>
+    <text>罪与罚</text>
+  </view>
+</view>
+-->

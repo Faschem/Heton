@@ -1,0 +1,52 @@
+{
+  "pages":
+  [
+    "pages/find/find",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/new/new",
+    "pages/logs/logs",
+    "pages/option/option",
+    "pages/message/message",
+    "pages/collect/collect",
+    "pages/comment/comment",
+    "pages/feedback/feedback",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#93b5cf",
+    "navigationBarTitleText": "海棠书评影评",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#626567",
+    "selectedColor": "#2a8ce5",
+    "backgroundColor": "#fbfbfb",
+    "borderStyle": "black",
+    "list": [
+     {"pagePath":"pages/find/find",
+      "text":"发现",
+      "iconPath":"images/icon/unfind.png",
+      "selectedIconPath": "images/icon/find.png"
+      },
+      {"pagePath":"pages/new/new",
+        "text":"",
+        "iconPath":"images/icon/unnew.png",
+        "selectedIconPath": "images/icon/new.png"
+        },
+        {"pagePath":"pages/mine/mine",
+          "text":"我的",
+          "iconPath":"images/icon/unmine.png",
+          "selectedIconPath": "images/icon/mine.png"
+          }
+
+    ]
+
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

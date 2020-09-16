@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<searchbar bind:searchinput="onSearchInputEvent"></searchbar>
+<view>
+<view class="show" wx:for="{{searchdata}}" wx:key="id">
+  <view class="oneshow">
+    <image class="show-left" src="{{item.pic.normal}}"></image>
+    <view class="show-rig">
+      <text class="title">{{item.title}}</text>
+      <text class="rate">{{item.rating.value}}分/{{item.year}}</text>
+    </view>
+  </view>
+</view>
+</view>

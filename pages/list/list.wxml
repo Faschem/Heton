@@ -1,0 +1,4 @@
+<searchbar isnavigator="{{true}}"></searchbar>
+<view class="conta">
+<itemview wx:for="{{items}}" wx:key="id" item="{{item}}"></itemview>
+</view>

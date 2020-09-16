@@ -1,0 +1,58 @@
+<view class="bg">
+<image src="../../images/icon/heton.jpg" style="width:750rpx;height:450rpx;"></image>
+</view>
+
+<navigator class="title"  url="../message/message?title=message" hover-class="navigator-hover" open-type="navigate">
+<view class='item'>
+  <view class="title">个人信息</view>
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+</navigator>
+
+<view class="hr"></view>
+<navigator class="title"  url="../collect/collect?title=collect" hover-class="navigator-hover" open-type="navigate">
+<view class='item'>
+  <view class="title">我的收藏</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+
+<view class="line"></view>
+<navigator class="title"  url="../comment/comment?title=comment" hover-class="navigator-hover" open-type="navigate">
+<view class="item">
+  <view class="title">我的评论</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+
+<view class="line"></view>
+<button class="button" open-type="feedback">
+  <text class="button_title">意见反馈</text>
+</button>
+<!--
+<navigator class="title"  url="../feedback/feedback?title=feedback" hover-class="navigator-hover" open-type="navigate">
+<view class="item">
+  <view class="title">意见反馈</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+-->
+
+<view class="line"></view>
+<navigator class="title"  url="../option/option?title=option" hover-class="navigator-hover" open-type="navigate">
+<view class="item">
+  <view class="title">设置</view>                      
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+<view class="line"></view>
