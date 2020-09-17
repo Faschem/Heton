@@ -41,13 +41,13 @@ Page({
     })
 
 
-      // network.getTVList({
-      //   success:function(tvh){
-      //     that.setData({
-      //       tvh:tvh
-      //     })
-      //   }
-      // })
+      network.getTVList({
+        success:function(tv){
+          that.setData({
+            tv:tv
+          })
+        }
+      })
    },
  
   /**

@@ -1,2 +1,45 @@
-<!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<!--pages/message/message.wxml
+<view class='content'>
+  <view class='nav'>
+    <view class='top'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class='nickname'>
+      <open-data type="userNickName"></open-data> 
+    </view>
+  </view>
+</view>-->
+<form bindsubmit="handleSubmit">
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">昵称</text>
+  <input class="input" placeholder="输入自定义昵称" name="nickname"></input>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">年龄</text>
+  <input class="input" placeholder="输入年龄" name="age"></input>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">性别</text>
+  <input class="input" placeholder="输入正确性别..." name="sex"></input>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">邮箱</text>
+  <input class="input" placeholder="输入正确邮箱格式" name="email"></input>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">学历</text>
+  <input class="input" placeholder="输入学历" name="edu"></input>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">学校</text>
+  <input class="input" placeholder="输入学校名称" name="school"></input>
+</view>
+<view class="line"></view>
+<button form-type="submit" id="update">更新</button>
+</form>

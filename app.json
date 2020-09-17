@@ -1,6 +1,5 @@
 {
-  "pages":
-  [
+  "pages": [
     "pages/find/find",
     "pages/index/index",
     "pages/mine/mine",
@@ -13,39 +12,43 @@
     "pages/feedback/feedback",
     "pages/list/list",
     "pages/detail/detail",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/info/info",
+    "pages/introduction/introduction",
+    "pages/say/say",
+    "pages/new/xiangqing/xiangqing"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#93b5cf",
     "navigationBarTitleText": "海棠书评影评",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
-  "tabBar":{
+  "tabBar": {
     "color": "#626567",
     "selectedColor": "#2a8ce5",
     "backgroundColor": "#fbfbfb",
     "borderStyle": "black",
     "list": [
-     {"pagePath":"pages/find/find",
-      "text":"发现",
-      "iconPath":"images/icon/unfind.png",
-      "selectedIconPath": "images/icon/find.png"
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "images/icon/unfind.png",
+        "selectedIconPath": "images/icon/find.png"
       },
-      {"pagePath":"pages/new/new",
-        "text":"",
-        "iconPath":"images/icon/unnew.png",
+      {
+        "pagePath": "pages/new/new",
+        "text": "",
+        "iconPath": "images/icon/unnew.png",
         "selectedIconPath": "images/icon/new.png"
-        },
-        {"pagePath":"pages/mine/mine",
-          "text":"我的",
-          "iconPath":"images/icon/unmine.png",
-          "selectedIconPath": "images/icon/mine.png"
-          }
-
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/icon/unmine.png",
+        "selectedIconPath": "images/icon/mine.png"
+      }
     ]
-
-
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

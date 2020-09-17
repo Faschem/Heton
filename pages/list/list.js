@@ -24,7 +24,7 @@ Page({
         },
         count:1000
       })
-    }else if(type==="tvh"){
+    }else if(type==="tv"){
       network.getTVList({
         success: function (items) {
           that.setData({

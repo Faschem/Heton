@@ -1,8 +1,16 @@
 <view class="bg">
+<!--
 <image src="../../images/icon/heton.jpg" style="width:750rpx;height:450rpx;"></image>
+-->
+
+<swiper indicator-dots='true' autoplay='true' interval='5000' style="height:450rpx;">
+  <swiper-item> <image src='../../images/icon/swiper1.jpg' style="width:750rpx;height:450rpx;"></image></swiper-item>
+  <swiper-item> <image src='../../images/icon/swiper2.jpg' style="width:750rpx;height:450rpx;"></image></swiper-item>
+  <swiper-item> <image src='../../images/icon/swiper3.jpg' style="width:750rpx;height:450rpx;"></image></swiper-item>
+</swiper>
 </view>
 
-<navigator class="title"  url="../message/message?title=message" hover-class="navigator-hover" open-type="navigate">
+<navigator class="title"  url="../info/info?title=info" hover-class="navigator-hover" open-type="navigate">
 <view class='item'>
   <view class="title">个人信息</view>
   <view class="detail2">
@@ -11,16 +19,17 @@
 </view>
 </navigator>
 
-<view class="hr"></view>
-<navigator class="title"  url="../collect/collect?title=collect" hover-class="navigator-hover" open-type="navigate">
+<view class="line"></view>
+<navigator class="title"  url="../new/newdetail/newdetail?title=newdetail" hover-class="navigator-hover" open-type="navigate">
 <view class='item'>
-  <view class="title">我的收藏</view>
+  <view class="title">我的发布</view>
   <view class="detail2">
     <text> ></text>
   </view>
 </view>
 </navigator>
 
+<!--
 <view class="line"></view>
 <navigator class="title"  url="../comment/comment?title=comment" hover-class="navigator-hover" open-type="navigate">
 <view class="item">
@@ -31,11 +40,17 @@
 </view>
 </navigator>
 
+
 <view class="line"></view>
-<button class="button" open-type="feedback">
-  <text class="button_title">意见反馈</text>
+<button class="button1" open-type="feedback" style="overflow:visible;">
+  <view class="item">
+    <view class="title">意见反馈</view>
+    <view class="detail2">
+      <text> ></text>
+    </view>
+  </view>
 </button>
-<!--
+
 <navigator class="title"  url="../feedback/feedback?title=feedback" hover-class="navigator-hover" open-type="navigate">
 <view class="item">
   <view class="title">意见反馈</view>
@@ -55,4 +70,6 @@
   </view>
 </view>
 </navigator>
-<view class="line"></view>
+<view class="hr"></view>
+
+<button class="button1" open-type="feedback" style="overflow:visible;">意见反馈...</button>

@@ -3,11 +3,11 @@
     
     <view class="search-nav-icon">
       <image class="icon-img" src="/images/fdj.png"></image>
-      <view class="icon-title">搜索电影/书籍</view>
+      <view class="icon-title">搜索电影</view>
     </view>
   </navigator>
   <view class="search-input-group"   wx:else  >
-    <input class="search-input" placeholder="搜索电影/书籍" bindinput="getSearch"></input>
+    <input class="search-input" placeholder="搜索电影" bindinput="getSearch"></input>
   </view>
 
 </view>

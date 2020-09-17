@@ -5,8 +5,8 @@ const network ={
     params.type = "movie";
     this.getItemList(params);
   },
-  getBookList: function (params){
-    params.type = "book";
+  getTVList: function (params){
+    params.type = "tv";
     this.getItemList(params);
   },
 
@@ -16,7 +16,7 @@ const network ={
     var url = "";
     if(params.type==="movie"){
       url = globalUrls.movieList;
-    } else if (params.type === "tvh"){
+    } else if (params.type === "tv"){
       url = globalUrls.lvList;
     }
 

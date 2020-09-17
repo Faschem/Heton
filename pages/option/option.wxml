@@ -1,2 +1,33 @@
 <!--pages/option/option.wxml-->
-<text>pages/option/option.wxml</text>
+<view >
+    <!--轮播图-->
+<swiper indicator-dots='true' autoplay='true' interval='4000' style="height:450rpx">
+       <swiper-item> <image src='../../images/icon/swiper4.jpg' style="width:750rpx;height:450rpx"></image> </swiper-item>
+       <swiper-item> <image src='../../images/icon/swiper5.jpg' style="width:750rpx;height:450rpx"></image></swiper-item>
+       <swiper-item> <image src='../../images/icon/swiper6.jpg' style="width:750rpx;height:450rpx"></image> </swiper-item>
+</swiper>
+</view>
+
+<view class="line"></view>
+<navigator class="title"  url="../introduction/introduction?title=introduction" hover-class="navigator-hover" open-type="navigate">
+<view class='item'>
+  <view class="title">功能介绍</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+
+<view class="line"></view>
+<navigator class="title"  url="../say/say?title=say" hover-class="navigator-hover" open-type="navigate">
+<view class="item">
+  <view class="title">开发者说</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+
+<view class="line"></view>
+
+

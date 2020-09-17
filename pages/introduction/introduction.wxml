@@ -1,0 +1,14 @@
+<!--pages/introduction/introduction.wxml-->
+<swiper indicator-dots='true' autoplay='true' interval='4000' style="height:450rpx">
+  <swiper-item><image src='../../images/icon/swiper7.png' style="width:750rpx;height:450rpx"></image></swiper-item>
+  <swiper-item><image src='../../images/icon/swiper8.png' style="width:750rpx;height:450rpx"></image></swiper-item>
+  <swiper-item><image src='../../images/icon/swiper9.png' style="width:750rpx;height:450rpx"></image></swiper-item>
+  <swiper-item><image src='../../images/icon/swiper10.png' style="width:750rpx;height:450rpx"></image></swiper-item>
+</swiper>
+<view class="text1">
+  <text style="font-size:38rpx; color:#5e616d; font-family: KaiTi;">\t\t功能意义：
+本产品聚焦于当代青年人，通过该小程序可以查看或搜索当前热门电影的评分以及评论，同时能够在小程序中发布帖子，讨论当下热门话题，并且查看他人发布的帖子。即这是一款聚焦于电影评论分享的产品。
+
+为了打造一个纯净的交流空间，给用户提供一个只讨论书与电影的健康环境，这款小程序的设计与开发是十分有意义的，且小程序的轻量级与简便性，相对于app来说，会有更大的发展与利用空间。
+  </text>
+</view>

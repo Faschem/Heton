@@ -6,11 +6,11 @@ Component({
   properties: {
     rate:{
       type:Number,
-      value:0
+      value: 0
     },
     starsize:{
       type:Number,
-      value:20
+      value: 20
     },
      fontsize: {
       type: Number,

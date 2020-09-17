@@ -1,8 +1,13 @@
 <!--pages/new/new.wxml-->
 <view class="app-poster-container">
-<view class="bg"style="opacity:{{0.6}}" >
-    <image  src="/images/bk.png" style="width:750rpx;height:1500rpx;" ></image>
-</view>
+  
+<view class="bg"style="opacity:{{0.5}}" >
+    <image src="/images/bk.png" style="width:750rpx;height:1200rpx;"></image>
+  </view>
+
+
+
+
 <view class="body">
   <view class="text-area-wrapper">
     <textarea bindinput="bindTextInput" placeholder="在此填写" value="{{text}}" auto-focus="true" />
@@ -15,8 +20,8 @@
       <image-wrapper is="image-wrapper" src="{{imageSrc}}" placeholder="选择图片上传" />
     </view>
   </view>
-  <view>hhh3</view>
 </view>
+
 <view class="footer">
   <button class="footer-btn" bindtap="onSendTap">发送</button>
 </view>

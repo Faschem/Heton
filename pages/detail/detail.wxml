@@ -3,9 +3,8 @@
   <view class="item-detail">
     <view class="left-detail">
       <view class="item-rate">
-        <stars rate='7' starsize="30"  fontsize="30" fontcolor="#595959"></stars>
+        <stars rate='4.9' starsize="30"  fontsize="30" fontcolor="#595959"></stars>
         <text class="comment-persons">{{item.rating.count}}评论</text>
-
       </view>
       <view class="item-sub-detail">
         <view class="item-type">{{item.genres}}</view>

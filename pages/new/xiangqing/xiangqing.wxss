@@ -1,0 +1,25 @@
+/* pages/new/xiangqing/xiangqing.wxss */
+.detaillist{
+height: 860rpx;
+width:100%
+}
+.image{
+height:120rpx;
+width:120rpx
+}
+.tip{
+  margin-top:30rpx;
+  font-size:50rpx;
+  color:goldenrod
+}
+.pinglunItem{
+  border-bottom:2px solid gainsboro;
+margin-left:50rpx;
+margin-top:30rpx
+}
+.input{
+  border:1px solid gainsboro;
+  margin-top:200rpx;
+  margin-bottom:60rpx
+
+}

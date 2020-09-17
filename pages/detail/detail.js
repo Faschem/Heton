@@ -3,6 +3,16 @@ import {network} from "../../utils/network.js"
 
 Page({
 
+  properties: {
+    item:{
+      type:Object,
+      value:{}
+    },
+    itemurl:{
+      type:String,
+      value:""
+    }
+  },
   /**
    * 页面的初始数据
    */

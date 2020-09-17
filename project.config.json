@@ -56,6 +56,10 @@
       "current": -1,
       "list": []
     },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
     "game": {
       "current": -1,
       "list": []
@@ -66,7 +70,35 @@
     },
     "miniprogram": {
       "current": -1,
-      "list": []
+      "list": [
+        {
+          "id": -1,
+          "name": "我的信息",
+          "pathName": "pages/message/message",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "介绍",
+          "pathName": "pages/introduction/introduction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/new/xiangqing/xiangqing",
+          "pathName": "pages/new/xiangqing/xiangqing",
+          "scene": null
+        }
+      ]
     }
   }
 }

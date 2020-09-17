@@ -1,0 +1,41 @@
+<!--pages/info/info.wxml-->
+<view class='nav'>
+  <view class='top'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">昵称</text>
+  <view class="input">{{nickname}}</view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">年龄</text>
+  <view class="input">{{age}}</view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">性别</text>
+  <view class="input">{{sex}}</view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">邮箱</text>
+  <view class="input">{{email}}</view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">学历</text>
+  <view class="input">{{edu}}</view>
+</view>
+<view class="line"></view>
+<view class="item" >
+  <text class="sidetext">学校</text>
+  <view class="input">{{school}}</view>
+</view>
+<view class="line"></view>
+<navigator class="title"  url="../message/message?title=message" hover-class="navigator-hover" open-type="navigate">
+修改
+</navigator>
+

@@ -1,0 +1,38 @@
+<!--pages/new/xiangqing/xiangqing.wxml-->
+<view class="dongtai">
+  <text class="comtitle">动态详情</text>
+</view>
+
+<view class="container">
+
+
+<view class="text">
+
+      <text class="msg">{{detailList.msg}}</text>
+    </view>
+<view class="imgitem">
+
+    <view class="imgRoot">
+     
+        <image class="img" src='{{detailList.photoId}}' mode='aspectFill'  style="width:200rpx;height:200rpx;"></image>
+        
+     
+    </view>
+    <image class="image" src ="{{imageUrl}}" bindtap="clickMe"></image>
+    <image class="image" src="{{dianzanUrl}}" bindtap="clickMe2"></image>
+    </view>
+    <!--评论-->
+<view class="tip">评论区域</view>
+    <block wx:for="{{detailList.pinglun}}" wx:key="index">
+      <view class="pinglunItem">
+     <text>{{item.name}}发表评论： </text>
+     <text>{{item.content}}</text> 
+      </view>
+    </block>
+    <!--发表评论-->
+    <input class="input" bindinput="getName" placeholder="想用什么名字发布"></input>
+    <input class="input" bindinput="getContent" placeholder="发表你的内容吧"></input>
+    <button type="primary" bindtap="fabiao">发送</button>
+    
+</view>
+  

@@ -1,0 +1,10 @@
+/* pages/introduction/introduction.wxss */
+.text1{
+  margin-top: 50rpx;
+  border: 30rpx solid;
+  border-color: #93b5cf;
+  width: 650rpx;
+  height: 45%;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

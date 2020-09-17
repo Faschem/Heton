@@ -1,0 +1,5 @@
+<!--pages/say/say.wxml-->
+<image src="../../images/icon/contact.png" style="width:750rpx;height:450rpx;"></image>
+<image src="../../images/icon/gzy.png" style="width:750rpx;height:450rpx;"></image>
+<image src="../../images/icon/yzy.png" style="width:750rpx;height:450rpx;"></image>
+<image src="../../images/icon/wd.png" style="width:750rpx;height:450rpx;"></image>

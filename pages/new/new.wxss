@@ -1,23 +1,26 @@
 /* pages/new/new.wxss */
 /* pages/new/new.wxss */
+
 .bg{
   position:fixed;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  background-size:750rpx 2000rpx;
-  z-index: -1;
+  
+  background-size:cover;
+  z-index:-1;
   }
   
   .bg-img{
-      width : 100%;
-      height : 100%;
+      width : 320rpx;
+      height : 540rpx;
   }
   
 .app-poster-container {
   width: 100%;
   height: 100%;
+ 
 }
 
 .body {
@@ -33,7 +36,7 @@
   height: 230rpx;
 }
 
-textarea {
+.textarea {
   width: 100%;
   height: 100%;
 }

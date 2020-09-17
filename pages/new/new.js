@@ -1,8 +1,9 @@
 // pages/new/new.js
 wx.cloud.init()
 const db = wx.cloud.database()
-
+var event=event
 Page({
+  
   /**
    * Page initial data
    */
@@ -11,16 +12,21 @@ Page({
     text: "",
     remainLen: 140,
     imageSrc: "",
-    clickable: true
+    clickable: true,
+    
+    
   },
-
+  
   bindTextInput: function(e) {
     const t = e.detail.value
     const len = e.detail.value.length
+   
+    
     const r = 140 - len 
     this.setData({
       text: e.detail.value,
-      remainLen: r
+      remainLen: r,
+      
     })
   },
 
@@ -30,7 +36,11 @@ Page({
       authorId: that.data.userId,
       msg: that.data.text,
       photoId: fileId,
-      date: db.serverDate()
+      date: db.serverDate(),
+      shoucang: false,
+      dianzan:false,
+      pinglun:[],
+      avatarUrl:that.data.avatarUrl
     }
     db.collection("poster")
       .add({
@@ -43,26 +53,27 @@ Page({
           title: "发送成功"
         })
         wx.navigateTo({
-          url:'../new/detail/detail',
+          url:'../new/newdetail/newdetail',
           
         })
+        console.log(head)
       })
       .catch(error => {
-        that.onSendFail()
+        // that.onSendFail()
       })
       .finally(wx.hideLoading())
   },
 
-  onSendFail: function() {
-    wx.hideLoading()
-    wx.showToast({
-      title: "发送失败",
-      image: "/images/error.png"
-    })
-    this.setData({
-      clickable: true
-    })
-  },
+  // onSendFail: function() {
+  //   wx.hideLoading()
+  //   wx.showToast({
+  //     title: "发送失败",
+  //     image: "/images/error.png"
+  //   })
+  //   this.setData({
+  //     clickable: true
+  //   })
+  // },
 
   onSendTap: function() {
     if (this.data.text === "" && this.data.imageSrc === "") {
@@ -122,30 +133,30 @@ Page({
     wx.setNavigationBarTitle({
       title: "编辑新动态"
     })
-    try {
-      var value = wx.getStorageSync("userId")
-      if (!value) {
-        wx.showToast({
-          title: "获取用户信息失败，请重新授权登陆",
-          image: "/images/error.png"
-        })
-        wx.navigateTo({
-          url: "/pages/index/index"
-        })
-      } else {
-        this.setData({
-          userId: value
-        })
-      }
-    } catch (e) {
-      wx.showToast({
-        title: "获取用户信息失败，请重新授权登陆",
-        image: "/images/error.png"
-      })
-      wx.navigateTo({
-        url: "/pages/index/index"
-      })
-    }
+    // try {
+    //   var value = wx.getStorageSync("userId")
+    //   if (!value) {
+    //     wx.showToast({
+    //       title: "获取用户信息失败，请重新授权登陆",
+    //       image: "/images/error.png"
+    //     })
+    //     wx.navigateTo({
+    //       url: "/pages/index/index"
+    //     })
+    //   } else {
+    //     this.setData({
+    //       userId: value
+    //     })
+    //   }
+    // } catch (e) {
+    //   wx.showToast({
+    //     title: "获取用户信息失败，请重新授权登陆",
+    //     image: "/images/error.png"
+    //   })
+    //   wx.navigateTo({
+    //     url: "/pages/index/index"
+    //   })
+    // }
   },
 
   /**

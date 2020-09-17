@@ -1,0 +1,126 @@
+/* miniprogram/pages/new/detail/detail.wxss */
+.page{
+  overflow:hidden;
+  position:fixed;
+  
+}
+.img{
+  width:100%;
+  z-index:-99999;
+}
+.list{
+  height: 860rpx;
+  width: 100%;
+}
+.yunduo{
+  height:150rpx;
+  width: 150rpx;
+  justify-content: center;        
+ align-items:center;
+
+}
+.bg{
+ position:fixed;
+  width:100%;
+  height:1000rpx;
+  
+  z-index:-1;
+}
+.bg-img{
+  width : 100%;
+  height :100%;
+}
+
+.whole{
+  width:100%;
+  height:50%;
+  
+  
+} .control {
+  position: absolute;
+  bottom: 70px;
+  width: 34px;
+  height: 34px;
+  right: 20px;
+  background-size: 34px 34px;
+}        
+button.control[plain] {
+  border: 0;
+}
+.bt_2{
+  margin-top: 40rpx;
+  background: linear-gradient(to right, #f6e9f8, #c5f1ee); 
+}
+.msg{
+height:100rpx
+}
+.button{
+
+  width: 90%;
+  height: 80rpx;
+
+  color: white;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 30rpx;
+
+  border-radius: 80rpx;
+
+  background-color: #FED322;
+
+}
+
+.image{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  z-index: -999;
+}
+.swiper{
+width:100%
+}
+.swiper-item{
+width:100%
+}
+.itemRoot{
+  background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+    padding: 12rpx 10rpx 12rpx 10rpx;
+    height: 430rpx;
+    flex-wrap: wrap;
+  }
+  .userinfo-avatar{
+    width:80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .user{
+    padding-right: 20rpx;
+  display: flex;
+  align-items: center;
+  }
+  .namecontain{
+    padding-left: 5%;
+    font-weight:700;
+  }
+  .imgRoot{
+  display: flex;
+    flex-direction: row;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+    padding: 12rpx 10rpx 12rpx 10rpx;
+    height: 430rpx;
+    flex-wrap: wrap;
+  
+  }
+  
+  

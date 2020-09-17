@@ -1,0 +1,45 @@
+/* pages/info/info.wxss */
+.item{
+  height: 90rpx;
+  background-color: #fff;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20rpx;
+}
+
+.sidetext{
+  font-size: 35rpx;
+  margin-bottom: 20rpx;
+  margin-left: 15rpx;
+  color: #93b5cf;
+}
+
+.line {
+  border: 4rpx solid #93b5cf;
+  opacity: 0.2;
+  margin: 0;
+}
+
+.input {
+  margin-left: 20rpx;
+}
+
+.title {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 30rpx;
+  font-size: 36rpx;
+  overflow: visible;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #fff;
+  color: #ff0000;
+  text-align: center;
+}
+
+.top{
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
